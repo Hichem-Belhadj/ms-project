@@ -11,12 +11,12 @@ This is a demo of microservice architecture based on a [Programming Techie](http
 - Circuit Breaker,
 - Secure Microservice Using KEYCLOAK
 
-
 ## List of dependencies
 
 - Spring WEB
+- Spring WebFlux
 - Spring Data JPA,
-- MongoDB,
+- Spring Data MongoDB,
 - PostgreSQL Driver,
 - Lombok
 
