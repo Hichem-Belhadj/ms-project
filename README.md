@@ -18,5 +18,8 @@ This is a demo of microservice architecture based on a [Programming Techie](http
 - Spring Data JPA,
 - Spring Data MongoDB,
 - PostgreSQL Driver,
+- Webflux
+- Netflix Eureka Client,
+- Netflix Eureka Server,
 - Lombok
 
