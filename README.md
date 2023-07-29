@@ -23,3 +23,5 @@ This is a demo of microservice architecture based on a [Programming Techie](http
 - Netflix Eureka Server,
 - Lombok
 
+# Architecture diagram of project
+![Spring Petclinic Microservices architecture](doc/images/microservices-project.PNG)
