@@ -15,11 +15,8 @@ public class SecurityConfig {
     public SecurityWebFilterChain securityWebFilterChain(ServerHttpSecurity httpSecurity) {
         httpSecurity
                 .csrf(ServerHttpSecurity.CsrfSpec::disable)
-//                .authorizeExchange(auth->auth
-//                        .anyExchange()
-//                        .authenticated())
-                .authorizeExchange(auth->auth.pathMatchers("/eureka/**")
-                        .permitAll()
+                .authorizeExchange(auth->auth
+                        .pathMatchers("/eureka/**").permitAll()
                         .anyExchange()
                         .authenticated())
                 .oauth2ResourceServer((oauth2) -> oauth2
